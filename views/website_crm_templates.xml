@@ -7,7 +7,7 @@
             <div class="form-group row s_website_form_field o_website_form_required_custom">
                 <label class="col-lg-3 col-md-4 col-form-label" for="description">Attachments</label>
                 <div class="col-lg-7 col-md-8">
-                    <input type="file" widget="many2many_binary" multiple="true" class="form-control o_website_form_input" name="attachment" required=""><t t-esc="request.params.get('attachment', '')"/></input>
+                    <input type="file" widget="many2many_binary" multiple="true" class="form-control o_website_form_input" name="attachment"><t t-esc="request.params.get('attachment', '')"/></input>
 
                 </div>
             </div>
